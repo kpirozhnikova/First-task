@@ -1,6 +1,6 @@
 <html>
   <head>
-    <meta charset ="UTF-8"><link rel = "stylesheet" href = "Style.css">
+    <meta charset ="UTF-8"><link rel = "stylesheet" href = "style.css">
     <title>Страны и города</title>
   </head>
   <body div class="background">
