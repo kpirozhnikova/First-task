@@ -78,7 +78,7 @@
     <?php
       foreach ($countries as $key_country => $country){
         if (isset($country['name'])) {
-          echo "<div class='country-name'> Название: ".htmlspecialchars($country['name'])."</div>";
+          echo "<div class='country-name'> <span class='name'> Название: ".htmlspecialchars($country['name'])."</span></div>";
         }
         if (isset($country['capital']))  {
           echo "<div class='country-capital'> Столица: ".htmlspecialchars($country['capital'])."</div>";
@@ -98,7 +98,7 @@
         if (isset($country['topCities'])) {
           foreach($country['topCities'] as $key_topCity => $topCity) {
             if (isset($topCity['name'])) {
-              echo "<div class='city-name'> Город: ".htmlspecialchars($topCity['name'])."</div>";}
+              echo "<div class='city-name'>Город: ".htmlspecialchars($topCity['name'])."</div>";}
             if (isset($topCity['photo'])) {
                 echo "<div class='city-photo'> <img src='".htmlspecialchars($topCity['photo'])."'></div>";}  
           }
